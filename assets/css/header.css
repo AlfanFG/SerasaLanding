@@ -44,14 +44,21 @@ a:hover {
 	background-color: black;
 }
 
+.collapse .navbar-collapse {
+	position: fixed;
+	margin-bottom: 200px;
+}
+
 .navbar-toggler {
-	margin-bottom: 100px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
 }
 
 .nav-icon {
-	position: absolute;
+	position: relative;
 	bottom: 30px;
-	right: 350px;
+	right: 150px;
 }
 
 .nav-icon img {
@@ -65,7 +72,7 @@ a:hover {
 .navbar-nav a {
 	position: relative;
 	font-size: 0.875rem;
-	color: #9698a6;
+	color: #ffff;
 	-webkit-transition: color 300ms ease-in-out;
 	transition: color 300ms ease-in-out;
 }
@@ -98,6 +105,14 @@ a:hover {
 	opacity: 1;
 }
 
+.dropdown-menu a {
+	text-decoration: none;
+	color: #000;
+}
+.dropdown-menu a:hover {
+	color: #000;
+}
+
 .carousel-inner::after {
 	content: "";
 	display: block;
@@ -116,11 +131,38 @@ a:hover {
 
 .coffee img {
 	margin: 50px 0px 0px 50px;
-	width: 20.656rem;
-	height: 26.781rem;
+	width: 11.656rem;
+	height: 16.781rem;
+}
+
+.work {
+	margin: auto;
+	background-color: #fff;
+	width: 1100px;
+	height: 600px;
+}
+
+.work img {
+	margin: 80px 50px 0px 0px;
+	width: 11.656rem;
+	height: 16.781rem;
+	float: right;
+}
+
+.footer {
+	background-color: rgb(31, 31, 31);
+	height: 450px;
+}
+.footer-content {
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.copyright {
+	background-color: rgb(0, 0, 0);
 }
 /*Desktop Version */
-@media (min-width: 992px) {
+@media (min-width: 950px) {
 	.navbar {
 		padding: 0.675rem, 1.5rem;
 		height: 90px;
@@ -132,7 +174,11 @@ a:hover {
 	.navbar-nav {
 		background-color: #747d8c;
 	}
-
+	.nav-icon {
+		position: absolute;
+		bottom: 30px;
+		right: 350px;
+	}
 	.navbar-brand img {
 		margin-left: 10px;
 		width: 7.25rem;
