@@ -51,27 +51,6 @@ $this->load->view('parts/navigation');
 
 </div>
 
-
-
-<!-- <div class="row">
-            <div class="col-md-4 about">
-                <a href="#">ABOUT</a>
-
-            </div>
-
-            <div class="col-md-4 contact">
-                <a href="#">CONTACT</a>
-                <div class="content">
-                    +628121092
-                </div>
-            </div>
-
-            <div class="col-md-4 sosmed">
-                <a href="#">SOCIAL MEDIA</a>
-            </div>
-        </div> -->
-
-<!-- Footer -->
 <?php
 $this->load->view('parts/footer');
 ?>

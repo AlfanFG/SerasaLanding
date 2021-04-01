@@ -13,12 +13,17 @@
                     <a class="nav-link" href="#">Profile</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Category
+                            Category Menu
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Coffee Flavour</a></li>
+                            <li><a class="dropdown-item" href="#">Dimsum Goreng</a></li>
+                            <li><a class="dropdown-item" href="#">Dimsum Kukus</a></li>
+                            <li><a class="dropdown-item" href="#">Espresso Based</a></li>
+                            <li><a class="dropdown-item" href="#">Manual Brew</a></li>
+                            <li><a class="dropdown-item" href="#">Meal</a></li>
+                            <li><a class="dropdown-item" href="#">Non Coffee</a></li>
+                            <li><a class="dropdown-item" href="#">Rice Box</a></li>
                         </ul>
                     </li>
                     <a class="nav-link" href="#">Order</a>
@@ -27,7 +32,7 @@
             </div>
 
             <div class="nav-icon" href="">
-                <a class="nav-icon-item" href="#">
+                <a class="nav-icon-item" href="https://www.instagram.com/kurasa.coffee/">
                     <img src="assets/images/instagram.png">
                 </a>
 

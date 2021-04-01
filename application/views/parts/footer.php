@@ -21,7 +21,7 @@
                         <a href="#!" class="text-white">+628112121212</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-white">kurassakopi@jimail.com</a>
+                        <a href="#!" class="text-white">kurasacoffee.id@gmail.com</a>
                     </li>
 
                 </ul>
@@ -38,7 +38,7 @@
 
                         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
 
-                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/kurasa.coffee/" role="button"><i class="fab fa-instagram"></i></a>
                     </li>
 
                 </ul>
