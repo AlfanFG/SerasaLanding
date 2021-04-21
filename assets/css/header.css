@@ -263,8 +263,10 @@ a:hover {
 
 	.coffee {
 		margin: auto;
-		background-color: #fff;
+
 		width: 1100px;
+		height: 600px;
+		background-color: #fff;
 	}
 
 	.coffee img {
@@ -314,5 +316,11 @@ a:hover {
 
 	.copyright {
 		background-color: rgb(0, 0, 0);
+	}
+
+	.category {
+		margin: auto;
+		width: 1100px;
+		height: 600px;
 	}
 }

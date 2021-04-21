@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 27, 2021 at 02:00 AM
+-- Generation Time: Apr 05, 2021 at 10:15 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -60,7 +60,7 @@ INSERT INTO `tbl_jabatan` (`id_jabatan`, `Nama_Jabatan`) VALUES
 --
 
 CREATE TABLE `tbl_kategorimenu` (
-  `id_kategoriMenu` varchar(5) NOT NULL,
+  `id_kategoriMenu` char(5) NOT NULL,
   `namaKategori` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
