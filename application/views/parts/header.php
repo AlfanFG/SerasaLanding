@@ -11,5 +11,5 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6090784b79.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="<?= base_url('assets/css/header.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/header.css'); ?>">
 </head>

@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class c_menu_kategori extends CI_Controller {
+class c_menu_kategori extends CI_Controller
+{
 
 	/**
 	 * Index Page for this controller.
@@ -18,28 +19,42 @@ class c_menu_kategori extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function ManualBrew()
 	{
 		$data['title'] = "Menu Kategori Manual Brew";
-		$this->load->view('parts/header', $data);
-		$this->load->view('parts/navigation');
-
-		$this->load->view('v_manualbrew');
+		$this->load->view('v_manualbrew', $data);
 	}
-	public function indexEB()
+	public function EspressoBased()
 	{
 		$data['title'] = "Menu Kategori Espresso Based";
-		$this->load->view('parts/header', $data);
-		$this->load->view('parts/navigation');
 
-		$this->load->view('v_espressobased');
+
+		$this->load->view('v_espressobased', $data);
 	}
-	public function indexCF()
+	public function CoffeeFlavour()
 	{
 		$data['title'] = "Menu Kategori Coffee Flavour";
-		$this->load->view('parts/header', $data);
-		$this->load->view('parts/navigation');
 
-		$this->load->view('v_coffeeflavour');
+		$this->load->view('v_coffeeflavour', $data);
+	}
+	public function DimsumKukus()
+	{
+		$data['title'] = "Menu Kategori Dimsum Kukus";
+
+		$this->load->view('v_dimsumkukus', $data);
+	}
+
+	public function meal()
+	{
+		$data['title'] = "Menu Kategori Meal";
+
+		$this->load->view('v_meal', $data);
+	}
+
+	public function MilkBased()
+	{
+		$data['title'] = "Menu Kategori Milk Base";
+
+		$this->load->view('v_milkbase', $data);
 	}
 }
