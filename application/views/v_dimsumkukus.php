@@ -5,7 +5,7 @@ $this->load->view('parts/navigation');
 
 <div class="container-fluid bg">
     <div class="row">
-        <div class="col">
+        <div class="col-fluid slide">
 
             <div class="container mt-5">
                 <h1 class="text-center title">Dimsum Kukus</h1>
@@ -85,7 +85,6 @@ $this->load->view('parts/navigation');
 
 
 </div>
-
 <script src="<?php echo base_url('assets/bootstrap/jquery/jquery.min.js'); ?>"> </script>
 <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"> </script>
 

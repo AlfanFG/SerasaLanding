@@ -7,7 +7,6 @@ $this->load->view('parts/navigation');
     <div class="row">
         <div class="col-fluid slide">
 
-
             <div class="container mt-5">
                 <h1 class="text-center title">Meal</h1>
             </div>
@@ -95,7 +94,7 @@ $this->load->view('parts/navigation');
 
 
     </div>
-</div>
-<?php
-$this->load->view('parts/footer');
-?>
+
+    <?php
+    $this->load->view('parts/footer');
+    ?>

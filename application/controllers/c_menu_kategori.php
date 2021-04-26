@@ -57,4 +57,25 @@ class c_menu_kategori extends CI_Controller
 
 		$this->load->view('v_milkbase', $data);
 	}
+
+	public function RiceBox()
+	{
+		$data['title'] = "Menu Kategori Rice Box";
+
+		$this->load->view('v_ricebox', $data);
+	}
+
+	public function NonCoffee()
+	{
+		$data['title'] = "Menu Kategori Non Coffee";
+
+		$this->load->view('v_noncoffee', $data);
+	}
+
+	public function DimsumGoreng()
+	{
+		$data['title'] = "Menu Kategori Dimsum";
+
+		$this->load->view('v_dimsumgoreng', $data);
+	}
 }

@@ -8,7 +8,7 @@ $this->load->view('parts/navigation');
         <div class="col-fluid slide">
 
             <div class="container mt-5">
-                <h1 class="text-center title">Milk Based</h1>
+                <h1 class="text-center title">Milkbase</h1>
             </div>
             <div class="container mt-4 align-center">
                 <div class="row ml-4">
