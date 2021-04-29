@@ -37,9 +37,28 @@ $this->load->view('parts/navigation');
 
     </div>
     <div class="row">
-        <div class="col-lg-9 coffee">
-            <img src="assets/images/CoffeeH1.jpeg" alt="">
-        </div>
+        <span class="col-md-7 coffee">
+            <div class="card mb-6" style="max-width: 1600px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/images/CoffeeH1.jpeg" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body col-md-11" style="margin-left: 50px; margin-top:150px; font-family: 'Roboto', sans-serif; font-size: 1.3rem; text-align: justify;">
+
+                            <p>KURASA Coffee & Meal adalah coffee shop yang mengutamakan kepuasan konsumen dalam hal rasa dan kenikmatan serta memberikan kenyamanan terhadap konsumen sehingga KURASA Coffee & Meal dapat digemari oleh para penikmat kopi dan diterima oleh semua kalangan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </span>
+
+
+
     </div>
     <div class="row">
         <div class="col-lg-9 work">
